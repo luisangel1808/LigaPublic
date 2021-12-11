@@ -1,0 +1,11 @@
+.SignUp{
+    position: relative;
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.SignUp input{
+    margin: 10px;
+}

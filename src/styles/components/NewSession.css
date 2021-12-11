@@ -1,0 +1,48 @@
+.NewSession{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choosed{
+    background-color: azure;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    border:1px solid black;
+    margin: 5px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.NewSession form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+}
+
+.NewSession h3{
+    text-align: center;
+}
+.NewSession .date{
+    display: flex;
+}
+.description{
+    width: 80vw;
+    height: 150px;
+    word-wrap: break-word;
+}
+input{
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+textarea{
+    padding: 5px;
+}

@@ -1,0 +1,38 @@
+.AddSession{
+    margin-block: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.AddSession table{    
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 90%;    
+ }
+
+ .AddSession .date{
+    display: flex;
+}
+
+.AddSession thead th:nth-child(1) {
+    width: 9%;
+ }
+   
+.AddSession thead th:nth-child(2) {
+    width: 14%;
+ }
+  
+.AddSession thead th:nth-child(3) {
+    width: 14%;
+ }
+   
+.AddSession thead th:nth-child(4) {
+    width: 29%;
+ }
+  
+.AddSession thead th:nth-child(5) {
+    width: 19%;
+}
+.AddSession thead th:nth-child(6) {
+    width: 5%;
+}

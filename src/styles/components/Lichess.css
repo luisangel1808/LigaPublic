@@ -1,0 +1,13 @@
+.Lichess{
+    display: flex;
+    justify-content:center;
+}
+.black{
+    color:black;
+    cursor:pointer;
+ }
+ 
+ .gold{
+    background-color:gold;
+    cursor:pointer;
+ }

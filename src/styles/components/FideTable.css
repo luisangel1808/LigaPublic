@@ -1,0 +1,83 @@
+.FideTable{
+    margin-block: 60px;
+    display: flex;
+    justify-content: center;
+}
+caption{
+   font-size: 26px;
+   padding: 20px;
+   color: #FFF;
+   font-weight: bolder;
+}
+  
+table{    
+   margin: 10px;
+   border-collapse: collapse;
+   display: block;
+   text-align: left;       
+   overflow-x: auto;
+   width: 90vw;
+ }
+  
+table a{
+   text-decoration: none;
+}
+  
+thead th {
+   background-color:rgb(195, 211, 240);
+   color: rgb(12, 8, 59);
+   padding: 10px;
+}
+  
+thead th:nth-child(1) {
+   width: 5%;
+}
+  
+thead th:nth-child(2) {
+   width: 5%;
+}
+ 
+thead th:nth-child(3) {
+   width: 38%;
+}
+  
+thead th:nth-child(4) {
+   width: 12%;
+}
+ 
+thead th:nth-child(5) {
+   width: 12%;
+}
+thead th:nth-child(6) {
+  width: 12%;
+}
+  
+thead th:nth-child(7) {
+  width: 8%;
+}
+thead th:nth-child(8) {
+  width: 8%;
+}
+
+tbody td {
+  color: rgb(3, 3, 51);
+  padding: 10px;    
+}
+   
+tbody tr:nth-child(even) {
+  background-color:rgb(246, 231, 248);
+}
+    
+tbody tr:nth-child(odd) {
+   background-color:#FFF;
+}
+
+.black{
+   color:black;
+   cursor:pointer;
+}
+
+.gold{
+   background-color:gold;
+   cursor:pointer;
+}

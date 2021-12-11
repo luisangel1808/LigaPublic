@@ -1,0 +1,20 @@
+.Miniature{
+    width: 20%;
+    min-width: 200px;
+    display: flex;
+    background-color: beige;
+    align-items: center;
+    padding: 6px;
+    margin: 2px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    flex-direction: column;
+    border: 2px solid wheat;  
+}
+.Miniature img{
+    width: 150px;
+    height: 150px;
+}
+.Miniature p{
+    text-align: justify;
+}

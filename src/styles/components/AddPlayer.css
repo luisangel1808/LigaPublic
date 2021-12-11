@@ -1,0 +1,31 @@
+.AddPlayer{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.AddPlayer > div:first-of-type{
+    display: flex;
+}
+.AddPlayer form{
+    flex-direction: column;
+    align-items: center;
+}
+.AddPlayer h4, .AddPlayer a, .AddPlayer div{
+    text-align: center;
+}
+.AddPlayer form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.AddPlayerinput::placeholder{
+    color: blue;
+}
+
+.AddPlayer-hide{
+    display: none;
+}
+.AddPlayer-visible{
+    display: flex;
+}

@@ -1,0 +1,90 @@
+body {
+    font-size: 16px;
+}
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  z-index: 6;
+
+}
+header img {
+  position: absolute;
+  top: 0;
+  height: 40px;
+}
+header svg{
+  cursor: pointer;
+}
+nav {
+  background: white;
+  box-shadow: 0 12px 6px -6px black;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+a {
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+}
+.menu li a {
+  display: block;
+  padding: 5px 5px;
+  color: rgb(79, 30, 255);
+}
+
+.toggle {
+  order: 1;
+  outline: none;
+  width: 20px;
+  font-size: 20px;
+  color: black;
+}
+.item.button {
+  order: 2;
+  padding: 9px 5px;
+}
+.item {
+  order: 3;
+  padding: 2px;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+.menu li a:hover{
+  color: rgb(133, 101, 250);
+}
+.active .item {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .menu{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .toggle{
+    display: none;
+  }
+  .item {
+    display: flex;
+    width: max-content;
+    margin: 0 5px;
+  }
+  .menu{
+    display: flex;
+  }
+  nav{
+    padding: 5px;
+  }
+}

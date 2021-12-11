@@ -1,0 +1,38 @@
+.tableTournament{    
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: left;       
+ }
+
+.tableTournament a{
+    text-decoration: none;
+ }
+.pagination{
+   display: flex;
+   justify-content: space-around;
+}
+.tableTournament thead th {
+    background-color:rgb(195, 211, 240);
+    color: rgb(12, 8, 59);
+    padding: 10px;
+ }
+   
+ .tableTournament thead th:nth-child(1) {
+    width: 10%;
+ }
+   
+ .tableTournament thead th:nth-child(2) {
+    width: 20%;
+ }
+  
+ .tableTournament thead th:nth-child(3) {
+    width: 25%;
+ }
+   
+ .tableTournament thead th:nth-child(4) {
+    width: 45%;
+ }
+  
+ .tableTournament thead th:nth-child(5) {
+    width: 20%;
+ }
